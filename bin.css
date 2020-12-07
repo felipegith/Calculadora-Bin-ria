@@ -1,0 +1,98 @@
+.containerHeader{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #CC7341;
+    border-radius: 10px;
+}
+.headerContent{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.textHeader{
+   font-size: 20px;
+   font-family: 'Fira Code';
+   color: #FFF;
+   font-weight: bold;
+   text-align: center;
+}
+.textConvert{
+    font-family: 'Fira Code';
+    text-align: center;
+    color: #CC7341;
+    margin-top: 55px;
+    font-weight: bold;
+}
+.containerInput{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerInputt{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    background-color:#CC7341;
+    width: 50%;
+    border-radius: 5px;
+    
+    border: 0;
+    padding: 5px;
+}
+button{
+    border: 0;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #CC7341;
+    color: #FFF;
+    font-family: 'Fira Code';
+    font-weight: bold;
+}
+.containerResul{
+    
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    
+    
+}
+.textResult{
+    text-align: center;
+    color: #fff;
+    font-family: 'Fira Code';
+    font-weight: bold;
+}
+body{
+    background-color: black;
+}
+.textIn{
+    color: #CC7341;
+    font-weight: bold;
+    font-family: 'Fira Code';
+    text-align: center;
+}
+.containerFooter{
+    width: 57%;
+    
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0px
+    
+}
+.textFooter{
+    color: #CC7341;
+    font-family: 'Fira Code';
+    font-weight: bold;
+    text-align: center;
+}
