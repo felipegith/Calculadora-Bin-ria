@@ -9,19 +9,19 @@ buttonDecimal.onclick = function(){
 
     const rec = inputDecimal.value
    
-    const binario = rec => {
-        const binarioArray = []
+    const principalbinario = rec => {
+        const aBinario = []
         while(rec > 1){
-            binarioArray.push(rec % 2)
+            aBinario.push(rec % 2)
             rec = Math.floor(rec / 2)
         }
-        binarioArray.push(rec)
-            return parseInt(binarioArray.reverse().join(""))
+        aBinario.push(rec)
+            return parseInt(aBinario.reverse().join(""))
             
             
     }
     document.getElementById('conct').innerHTML = rec
-    document.getElementById('resu').innerHTML = (binario(rec))
+    document.getElementById('resu').innerHTML = (principalbinario(rec))
     
    
  }
@@ -34,12 +34,12 @@ buttonBinario.onclick = function(){
 
     const recBin = inputBinario.value
     
-    let bin = recBin;
-    let dec = 0;
-    for (let c = 0; c < bin.length; c++) dec += Math.pow(2, c) * bin[bin.length - c - 1]; //calcula para pegar do último ao primeiro
-    console.log(dec);
+    let recebendoValor = recBin;
+    let valorDe = 0;
+    for (let valorFor = 0; valorFor < recebendoValor.length; valorFor++) valorDe += Math.pow(2, valorFor) * recebendoValor[recebendoValor.length - valorFor - 1]; 
+    
 
     document.getElementById('conctt').innerHTML = recBin
-    document.getElementById('resuu').innerHTML = dec;
+    document.getElementById('resuu').innerHTML = valorDe;
     
 }

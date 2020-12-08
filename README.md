@@ -8,7 +8,7 @@
 <hr></hr>
 <br></br>
 <img src="./images/1red.png">
-<p align="center">A primeira imagem mostra a tela incial do site. O mesmo tem duas opções; Converter de decimal para binário e de binário para decimal.</p>
+<p align="center">A primeira imagem mostra a tela inicial do site. O mesmo tem duas opções: Converter de decimal para binário e de binário para decimal.</p>
 <hr></hr>
 <br></br>
 <img src="./images/2red.png">
